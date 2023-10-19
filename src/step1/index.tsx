@@ -1,4 +1,4 @@
-export const step1Player = () => {
+export const Player = () => {
   return (
     <video
       autoPlay
@@ -8,5 +8,3 @@ export const step1Player = () => {
     />
   )
 }
-
-export default step1Player

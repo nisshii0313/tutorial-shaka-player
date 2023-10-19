@@ -25,5 +25,9 @@ bun run dev
 ## 各stepの概要
 
 - step1: videoタグを用いてmp4を再生する
-- step2: shaka-playerを入れてmp4形式でない動画を再生する
+  - Networkタブを開いて、最初にmp4がひと固まりで読み込まれる様子を確認する
+
+- step2: shaka-playerを入れてDash形式の動画を再生する
+  - Networkタブを開いて、セグメントファイルが次々に読み込まれている様子を確認する
+
 - step3: shaka-playerを用いてdrmのかかった動画を再生する
